@@ -1,3 +1,2 @@
 # Ignore Pycharm's folder
-idea/*
-
+.idea/*
