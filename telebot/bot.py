@@ -69,8 +69,8 @@ class Bot(object):
 
     def start(self, bot, update):
         bot.send_message(chat_id=update.message.chat_id,
-                         text='Hallo! I\'m Telebot, please type /help for '
-                              'more info')
+                         text='Hello! Meditech bot is really. Please enter '
+                              '/help to show all command that will help you.')
 
     def stop(self):
         self.updater.stop()

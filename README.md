@@ -15,7 +15,7 @@ sudo pip3 install -r requirements.txt
 2. Run Setup
 
 ```
-python3 setup.py install
+sudo python3 setup.py install
 ```
 
 3. Edit tele.conf file and move it to /etc/telegram/
