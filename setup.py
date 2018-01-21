@@ -16,7 +16,7 @@ setup(
     author='MediTech',
     author_email='meditech@gmail.com',
     license='Apache-2.0',
-    scripts=['bin/bot_hcd'],
+    scripts=['bin/bot_mdt'],
     url='https://gitlab.com/hocchudong/telebot_hcd.git',
     packages=['telebot', 'telebot.plugins'],
     include_package_data=True,
