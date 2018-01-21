@@ -41,4 +41,23 @@ sudo supervisorctl update
 sudo supervisorctl start bot_mdt
 ```
 
+====================================
 
+## Running with Docker
+
+1. Preparing environment
+
+- Install docker on Ubuntu or CentOS
+
+```
+curl -fsSL https://get.docker.com | sh
+```
+
+2. Build image from Dockerfile
+
+```
+cd bot_mdt
+build -t bot_image .
+```
+
+Work-in-process
