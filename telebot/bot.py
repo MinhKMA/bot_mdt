@@ -41,6 +41,9 @@ class Bot(object):
         # Init additional plugins handlers
         for plugin in self.plugins.keys():
             _handler = CommandHandler(plugin, self.plugins[plugin]['handler'])
+            if plugin in settings.ARGS_PLUGINS:
+                _handler = CommandHandler(plugin, self.plugins[plugin]['handler'], pass_args=True)
+
             if plugin in settings.JOB_PLUGINS:
                 _handler = CommandHandler(plugin,
                                           self.plugins[plugin]['handler'],
